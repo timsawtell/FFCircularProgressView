@@ -12,6 +12,8 @@
 
 @interface FFCircularProgressView : UIView
 
+@property (nonatomic, strong) CAShapeLayer *iconLayer;
+
 /**
  * The progress of the view.
  **/

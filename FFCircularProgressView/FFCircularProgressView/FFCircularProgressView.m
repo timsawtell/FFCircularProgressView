@@ -12,8 +12,6 @@
 @interface FFCircularProgressView()
 @property (nonatomic, strong) CAShapeLayer *progressBackgroundLayer;
 @property (nonatomic, strong) CAShapeLayer *progressLayer;
-@property (nonatomic, strong) CAShapeLayer *iconLayer;
-
 @property (nonatomic, assign) BOOL isSpinning;
 @end
 
